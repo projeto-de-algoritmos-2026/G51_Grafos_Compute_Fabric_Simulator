@@ -9,6 +9,7 @@ const int INF = std::numeric_limits<int>::max();
 
 struct RoutingResult {
     std::vector<int> distances;
+    std::vector<int> parent;
     int maxLatency;
 };
 

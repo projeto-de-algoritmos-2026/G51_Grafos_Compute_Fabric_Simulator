@@ -8,8 +8,15 @@
 
 class VisualizerSVG {
 public:
-    // Exporta a topologia e as conexões da MST para um arquivo .svg
-    static void exportMSTToSVG(const std::string& filename, const std::vector<Rack>& racks, const std::vector<Edge>& mstEdges, int width = 1000, int height = 1000);
+    static void exportTopologyToSVG(const std::string& filename, const std::vector<Rack>& racks, const std::vector<Edge>& mstEdges);
+
+    // Novo método: Exporta a Árvore de Roteamento do Dijkstra a cada snapshot
+    static void exportShortestPathTreeToSVG(
+        const std::string& filepath, 
+        const std::vector<Rack>& racks, 
+        const std::vector<int>& parent, 
+        int sourceNode
+    );
 };
 
 #endif // VISUALIZERSVG_HPP

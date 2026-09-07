@@ -21,6 +21,10 @@ public:
     // Executores das etapas
     void runStage1_Topology();
     void runStage2_Routing(const Graph& graph, int sourceNode);
+
+    // Simulação dinâmica temporal (10 snapshots)
+    // isDeterministic ? (seed fixa 1337): (seed aleatória)
+    void runDynamicSimulation(Graph baseGraph, int sourceNode, int numSnapshots = 10, bool isDeterministic = true);
 };
 
 #endif // SIMULATOR_HPP

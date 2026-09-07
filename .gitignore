@@ -1,0 +1,36 @@
+# Executáveis e Binários Compilados
+/simulator
+*.exe
+*.out
+*.app
+*.bin
+
+# Arquivos Objetos e Dependências de Compilação
+/obj/
+*.o
+*.obj
+*.d
+
+# Arquivos de IDE e Editores de Código
+# VS Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+
+# MacOS / Linux / Windows System Files
+.DS_Store
+Thumbs.db
+*~
+*.swp
