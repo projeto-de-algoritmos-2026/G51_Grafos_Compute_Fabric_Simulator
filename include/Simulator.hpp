@@ -29,7 +29,7 @@ public:
         int sourceNode,
         int numSnapshots = 10,
         bool isDeterministic = false,
-        bool dynamicTopology = false,
+        bool dynamicTopology = true,
         bool randomizeTopology = false
     );
 };

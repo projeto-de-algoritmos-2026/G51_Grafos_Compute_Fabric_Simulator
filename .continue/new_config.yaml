@@ -1,6 +1,0 @@
-models:
-  - name: Local Code Agent (Gemma 12B)
-    provider: llama.cpp
-    model: gemma-4-12b-it
-    apiBase: http://localhost:8080
-    contextLength: 16384
