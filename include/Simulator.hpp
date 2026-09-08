@@ -24,7 +24,14 @@ public:
 
     // Simulação dinâmica temporal (10 snapshots)
     // isDeterministic ? (seed fixa 1337): (seed aleatória)
-    void runDynamicSimulation(Graph baseGraph, int sourceNode, int numSnapshots = 10, bool isDeterministic = true);
+    void runDynamicSimulation(
+        Graph baseGraph,
+        int sourceNode,
+        int numSnapshots = 10,
+        bool isDeterministic = false,
+        bool dynamicTopology = false,
+        bool randomizeTopology = false
+    );
 };
 
 #endif // SIMULATOR_HPP

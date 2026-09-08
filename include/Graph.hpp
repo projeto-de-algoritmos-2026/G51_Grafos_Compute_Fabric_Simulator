@@ -46,6 +46,9 @@ public:
 
     void addEdge(int u, int v, int weight);
     
+    // Atualiza o peso de uma aresta bidirecional existente
+    void updateEdgeWeight(int u, int v, int newWeight);
+
     int getNumVertices() const;
     const std::vector<Edge>& getEdgeList() const;
     const std::vector<std::vector<AdjNode>>& getAdjList() const;

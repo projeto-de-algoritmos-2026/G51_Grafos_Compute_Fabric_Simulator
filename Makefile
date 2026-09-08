@@ -20,6 +20,6 @@ $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)
 
 clean:
-	rm -rf $(OBJ_DIR) $(TARGET) */*.svg
+	rm -rf $(OBJ_DIR) $(TARGET) */*.svg ./*.svg
 
 .PHONY: all clean
