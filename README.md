@@ -10,6 +10,8 @@
 | 180113097 | Daniel Coimbra dos Santos |
 | 180066161 | Luis Henrique Luz Costa |
 
+[Apresentação em vídeo](https://drive.google.com/file/d/1UMSX_CEoUCslai5eZFO3rsyWw8N7mqpI/view?usp=sharing)
+
 ## Sobre
 
 O **Compute Fabric Simulator** é um simulador e visualizador em C++ desenvolvido para modelar, otimizar e analisar a infraestrutura de rede de um Data Center sob condições dinâmicas de tráfego e degradação física de hardware. O projeto simula 50 racks organizados em piso de processamento e opera em duas fases principais baseadas nos algoritmos da disciplina:
